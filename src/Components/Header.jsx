@@ -94,7 +94,7 @@ const Header = () => {
 
               <Card
                 icon={locationIcon}
-                title="APPOINTMENT"
+                title="CALL NOW"
                 text="+92 325 9133336"
                 bg="bg-orange-50"
               />
