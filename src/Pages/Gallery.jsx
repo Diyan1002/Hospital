@@ -5,6 +5,7 @@ import image1 from "../assets/111.jpeg";
 import image2 from "../assets/222.jpeg";
 import image3 from "../assets/333.jpeg";
 import image44 from "../assets/989.jpeg";
+import image55 from "../assets/877.jpeg";
 import image4 from "../assets/444.jpeg";
 import image5 from "../assets/555.jpeg";
 import image6 from "../assets/666.jpeg";
@@ -25,7 +26,7 @@ import image19 from "../assets/99999.jpeg";
 const AboutSection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const topImages = [image1, image2, image3, image44];
+  const topImages = [image1, image2, image3, image44, image55];
   const rowImages = [image4, image5, image6, image7];
   const bottomImages = [
     image8,
@@ -100,7 +101,7 @@ const AboutSection = () => {
       {/* GALLERY */}
       <section className="max-w-7xl mx-auto px-6 pb-20 space-y-8">
         {/* TOP */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
           {topImages.map((img, index) => (
             <ImageCard key={index} img={img} height="h-[280px]" />
           ))}
