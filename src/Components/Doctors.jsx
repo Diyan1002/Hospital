@@ -40,8 +40,8 @@ const doctors = [
   },
   {
     name: "Dr Maryam Ijaz",
-    specialty: "Aesthetic Physician",
-    qualifications: ["MBBS", "MS Orthopedics"],
+    specialty: "CERTIFIED AESTHETICIAN",
+    qualifications: ["MBBS,MPHIL (TQM), CPHQ(USA), CHPE"],
     image: doctor5,
   },
 ];
