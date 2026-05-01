@@ -17,7 +17,7 @@ const HeroSection = () => {
           mx-auto 
           bg-cover 
           bg-center md:bg-center
-          bg-[position:75%_center] md:bg-center
+          bg-[position:90%_center] md:bg-center
         "
         style={{ backgroundImage: `url(${doctorImage})` }}
       >
