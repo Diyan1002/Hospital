@@ -23,9 +23,9 @@ const Footer = () => {
               className="w-40 h-auto mb-5 object-contain mx-auto sm:mx-0"
             />
 
-            <p className="text-[13px] leading-[22px] text-white/85 max-w-[230px]">
-              Leading the Way in Medical Excellence, Trusted Care.
-            </p>
+           <p className="text-[13px] leading-[22px] text-white/85 max-w-[230px]">
+  Transforming skin health with advanced dermatology, laser, and aesthetic solutions.
+</p>
           </div>
 
           {/* Important Links */}
