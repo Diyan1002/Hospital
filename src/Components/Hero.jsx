@@ -1,5 +1,5 @@
 import React from "react";
-import doctorImage from "../assets/here.png";
+import doctorImage from "../assets/here.jpeg";
 import calendarIcon from "../assets/Calendar.png";
 import personIcon from "../assets/Team.png";
 import cardIcon from "../assets/Cash.png";
@@ -17,7 +17,7 @@ const HeroSection = () => {
           mx-auto 
           bg-cover 
           bg-center md:bg-center
-          bg-[position:65%_center] md:bg-center
+          bg-[position:60%_center] md:bg-center
         "
         style={{ backgroundImage: `url(${doctorImage})` }}
       >
