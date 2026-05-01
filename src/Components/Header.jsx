@@ -16,13 +16,13 @@ const Header = () => {
         <div className="hidden lg:flex items-center justify-center gap-48">
 
           {/* LOGO */}
-          <div className="h-[60px] flex items-center overflow-hidden">
-            <img
-              src={logo}
-              alt="logo"
-              className="w-28 "
-            />
-          </div>
+         <div className="h-[60px] flex items-center ">
+  <img
+    src={logo}
+    alt="logo"
+    className="w-36 object-contain md:w-40 h-auto max-h-[60px] md:max-h-none"
+  />
+</div>
 
           {/* INFO CARDS */}
           <div className="flex gap-4">
