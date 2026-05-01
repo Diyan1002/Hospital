@@ -139,7 +139,7 @@ export default function AppointmentForm() {
             <div>
               <select name="doctor" onChange={handleChange} className="input">
                 <option value="">Doctor</option>
-                <option>Dr. John</option>
+                <option>Dr Ijaz Ali</option>
                 <option>Dr. Jane</option>
               </select>
               {errors.doctor && <p className="error">{errors.doctor}</p>}
