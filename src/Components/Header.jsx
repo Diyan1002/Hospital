@@ -20,7 +20,7 @@ const Header = () => {
             <img
               src={logo}
               alt="logo"
-              className="w-36 object-contain md:w-40 h-auto max-h-[75px]"
+              className="w-36 object-contain md:w-40 h-auto max-h-[100px]"
             />
           </div>
 
