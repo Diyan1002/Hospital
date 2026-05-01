@@ -55,13 +55,13 @@ const Header = () => {
         {/* MOBILE VIEW */}
         <div className="lg:hidden">
 
-          {/* LOGO (UNCHANGED) */}
+          {/* LOGO (UPDATED SMALL SIZE) */}
           <div className="flex items-center justify-between">
-            <div className="h-[50px] flex items-center overflow-hidden">
+            <div className="h-[45px] flex items-center overflow-hidden">
               <img
                 src={logo}
                 alt="logo"
-                className="w-36 object-contain"
+                className="w-28 object-contain"
               />
             </div>
 
