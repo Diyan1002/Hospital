@@ -1,0 +1,112 @@
+import React from "react";
+
+import sendIcon from "../assets/send.svg";
+import linkedinIcon from "../assets/linkedin.png";
+import facebookIcon from "../assets/facebook.png";
+import instagramIcon from "../assets/instagram.png";
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#1f2d6b] text-white">
+      <div className="max-w-[1050px] mx-auto px-6 pt-14 pb-8">
+        
+        {/* TOP FOOTER */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center sm:text-left">
+          
+          {/* Logo / About */}
+          <div>
+            <h2 className="text-[26px] font-serif font-bold tracking-[1px] mb-5">
+              MEDDICAL
+            </h2>
+
+            <p className="text-[13px] leading-[22px] text-white/85 max-w-[230px] mx-auto sm:mx-0">
+              Leading the Way in Medical Excellence, Trusted Care.
+            </p>
+          </div>
+
+          {/* Important Links */}
+          <div>
+            <h3 className="text-[14px] font-bold mb-5">
+              Important Links
+            </h3>
+
+            <ul className="space-y-[9px] text-[13px] text-white/85">
+              <li><a href="#" className="hover:text-[#bfd0f5]">Appointment</a></li>
+              <li><a href="#" className="hover:text-[#bfd0f5]">Doctors</a></li>
+              <li><a href="#" className="hover:text-[#bfd0f5]">Services</a></li>
+              <li><a href="#" className="hover:text-[#bfd0f5]">About Us</a></li>
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h3 className="text-[14px] font-bold mb-5">
+              Contact Us
+            </h3>
+
+            <div className="space-y-[8px] text-[13px] text-white/85">
+              <p>Call: +923259133336</p>
+              <p>Email: tcsbyasim21@gmail.com</p>
+              <p>Address: 0123 Some place</p>
+              <p>Some country</p>
+            </div>
+          </div>
+
+          {/* Newsletter */}
+          <div>
+            <h3 className="text-[14px] font-bold mb-5">
+              Newsletter
+            </h3>
+
+            <form className="w-full max-w-[230px] mx-auto sm:mx-0">
+              <div className="flex items-center bg-[#bfd0f5] rounded-[3px] overflow-hidden h-[45px]">
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  className="w-full h-full px-4 bg-transparent outline-none text-[#1f2d6b] placeholder:text-[#1f2d6b]/80 text-[12px]"
+                />
+
+                <button
+                  type="submit"
+                  className="w-[48px] h-full flex items-center justify-center hover:bg-white/30 transition"
+                >
+                  <img
+                    src={sendIcon}
+                    alt="Send"
+                    className="w-[17px] h-[17px] object-contain"
+                  />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        {/* LINE */}
+        <div className="w-full h-[1px] bg-white/35 my-9"></div>
+
+        {/* BOTTOM */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-5 text-center sm:text-left">
+          
+          <p className="text-[12px] text-white/85">
+            © 2026 Hospital’s name All Rights Reserved by PNTEC-LTD
+          </p>
+
+          <div className="flex items-center gap-4">
+            <a href="#">
+              <img src={linkedinIcon} className="w-[18px] h-[18px]" />
+            </a>
+            <a href="#">
+              <img src={facebookIcon} className="w-[18px] h-[18px]" />
+            </a>
+            <a href="#">
+              <img src={instagramIcon} className="w-[18px] h-[18px]" />
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
