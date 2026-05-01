@@ -25,7 +25,7 @@ export default function ContactSection() {
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 
-          <Card icon={phoneIcon} title="Emergency">
+          <Card icon={phoneIcon} title="Call Now">
             <p>+923259133336</p>
           </Card>
 
