@@ -100,8 +100,7 @@ export default function ContactSection() {
             </InfoCard>
 
             <InfoCard icon={clockIcon} title="Working Hours">
-              <p>Mon-Sat 09:00-20:00</p>
-              <p>Sunday Emergency only</p>
+              <p>Mon-Thu 05:00 PM-09:00 PM</p>
             </InfoCard>
 
           </div>

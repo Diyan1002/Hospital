@@ -90,10 +90,10 @@ const AppointmentPage = () => {
           <div className="space-y-2 md:space-y-3 text-xs md:text-sm">
 
             {[
-              ["Monday", "09:00 - 07:00"],
-              ["Tuesday", "09:00 - 07:00"],
-              ["Wednesday", "09:00 - 07:00"],
-              ["Thursday", "09:00 - 07:00"],
+              ["Monday", "05:00 PM - 09:00 PM"],
+              ["Tuesday", "05:00 PM - 09:00 PM"],
+              ["Wednesday", "05:00 PM - 09:00 PM"],
+              ["Thursday", "05:00 PM - 09:00 PM"],
               ["Friday", "OFF"],
               ["Saturday", "OFF"],
               ["Sunday", "OFF"],

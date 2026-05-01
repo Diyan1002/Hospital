@@ -18,7 +18,7 @@ import Contact from "./Components/Contact";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
 import Gallery from "./Pages/Gallery";
-import OurTeams from "./Pages/OurTeams";
+import OurTeam from "./Pages/OurTeam";
 import Contacts from "./Pages/Contacts";
 import  Equipments from "./Pages/Equipments";
 import Appointment from "./Pages/Appointment"; 
@@ -49,7 +49,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/ourteams" element={<OurTeams />} />
+          <Route path="/ourteam" element={<OurTeam />} />
           <Route path="/contact" element={<Contacts />} />
           <Route path="/equipments" element={<Equipments />} />
 
