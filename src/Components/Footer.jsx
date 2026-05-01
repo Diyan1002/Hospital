@@ -1,23 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import sendIcon from "../assets/send.svg";
 import linkedinIcon from "../assets/linkedin.png";
 import facebookIcon from "../assets/facebook.png";
 import instagramIcon from "../assets/instagram.png";
+import logo from "../assets/rssf.png";
 
 const Footer = () => {
   return (
     <footer className="bg-[#1f2d6b] text-white">
       <div className="max-w-[1050px] mx-auto px-6 pt-14 pb-8">
-        
+
         {/* TOP FOOTER */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center sm:text-left">
-          
+
           {/* Logo / About */}
           <div>
-            <h2 className="text-[26px] font-serif font-bold tracking-[1px] mb-5">
-              MEDDICAL
-            </h2>
+            <img
+              src={logo}
+              alt="Logo"
+              className="w-40 h-auto mb-5 object-contain"
+            />
 
             <p className="text-[13px] leading-[22px] text-white/85 max-w-[230px] mx-auto sm:mx-0">
               Leading the Way in Medical Excellence, Trusted Care.
@@ -31,10 +35,31 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-[9px] text-[13px] text-white/85">
-              <li><a href="#" className="hover:text-[#bfd0f5]">Appointment</a></li>
-              <li><a href="#" className="hover:text-[#bfd0f5]">Doctors</a></li>
-              <li><a href="#" className="hover:text-[#bfd0f5]">Services</a></li>
-              <li><a href="#" className="hover:text-[#bfd0f5]">About Us</a></li>
+
+              <li>
+                <Link to="/appointment" onClick={() => window.scrollTo(0, 0)} className="hover:text-[#bfd0f5]">
+                  Appointment
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/doctors" onClick={() => window.scrollTo(0, 0)} className="hover:text-[#bfd0f5]">
+                  Doctors
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/services" onClick={() => window.scrollTo(0, 0)} className="hover:text-[#bfd0f5]">
+                  Services
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/about" onClick={() => window.scrollTo(0, 0)} className="hover:text-[#bfd0f5]">
+                  About Us
+                </Link>
+              </li>
+
             </ul>
           </div>
 
@@ -86,7 +111,7 @@ const Footer = () => {
 
         {/* BOTTOM */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-5 text-center sm:text-left">
-          
+
           <p className="text-[12px] text-white/85">
             © 2026 Hospital’s name All Rights Reserved by PNTEC-LTD
           </p>
@@ -102,6 +127,7 @@ const Footer = () => {
               <img src={instagramIcon} className="w-[18px] h-[18px]" />
             </a>
           </div>
+
         </div>
 
       </div>

@@ -7,12 +7,12 @@ import doctor2 from "../assets/doc2.png";
 
 const ServiceSection = () => {
   const features = [
-    "A Passion for Healing",
-    "5-Star Care",
-    "All our best",
-    "Believe in Us",
-    "A Legacy of Excellence",
-    "Always Caring",
+    "Advanced Skin Treatments",
+    "Laser & Aesthetic Solutions",
+    "Expert Dermatologists",
+    "Safe & Modern Technology",
+    "Personalized Care",
+    "Proven Results",
   ];
 
   return (
@@ -23,7 +23,7 @@ const ServiceSection = () => {
         {/* Header */}
         <div className="text-center mb-10 md:mb-12">
           <p className="uppercase tracking-[3px] text-[#159EEC] font-semibold text-[11px] md:text-xs">
-            Care You Can Believe In
+            Skin & Aesthetic Care
           </p>
 
           <h2 className="text-2xl md:text-3xl font-bold text-[#1F2B6C] mt-2">
@@ -34,14 +34,14 @@ const ServiceSection = () => {
         {/* Main Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
 
-          {/* Left Sidebar */}
+          {/* Left Sidebar (Text Updated Only) */}
           <div className="lg:col-span-2 shadow-md rounded-xl overflow-hidden bg-white flex lg:block">
 
             {[ 
-              { icon: cardiogramIcon, title: "Free Checkup" },
-              { icon: cardiogramIcon, title: "Cardiogram", active: true },
-              { icon: dnaTestingIcon, title: "DNA Testing" },
-              { icon: bloodBankIcon, title: "Blood Bank" },
+              { icon: cardiogramIcon, title: "Skin Treatments" },
+              { icon: cardiogramIcon, title: "Laser Procedures", active: true },
+              { icon: dnaTestingIcon, title: "PRP & Hair Therapy" },
+              { icon: bloodBankIcon, title: "Cosmetic Procedures" },
             ].map((item, index) => (
               <div
                 key={index}
@@ -64,11 +64,11 @@ const ServiceSection = () => {
 
           </div>
 
-          {/* Center Content */}
+          {/* Center Content (Updated Text) */}
           <div className="lg:col-span-6">
 
             <h3 className="text-xl md:text-2xl font-semibold text-[#1F2B6C] mb-5 md:mb-6">
-              A passion for putting patients first.
+              Advanced Dermatology & Aesthetic Care
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-3 mb-5 md:mb-6">
@@ -81,18 +81,18 @@ const ServiceSection = () => {
             </div>
 
             <p className="text-sm text-gray-600 leading-6 md:leading-7 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Quisque placerat scelerisque tortor ornare ornare.
+              We provide complete solutions for skin, hair, and aesthetic care using
+              modern technology and expert dermatologists.
             </p>
 
             <p className="text-sm text-gray-600 leading-6 md:leading-7">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Convallis felis vitae tortor augue.
+              From laser treatments to anti-aging procedures, our clinic ensures
+              safe, effective, and personalized care for every patient.
             </p>
 
           </div>
 
-          {/* Right Images */}
+          {/* Right Images (Same) */}
           <div className="lg:col-span-4 grid grid-cols-2 lg:grid-cols-1 gap-3 md:space-y-4 md:gap-0">
 
             <img

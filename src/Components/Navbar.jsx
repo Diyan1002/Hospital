@@ -10,6 +10,7 @@ const Navbar = () => {
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Doctors", path: "/doctors" },
+    { name: "Staffs", path: "/staffs" },
     { name: "Machines", path: "/machines" },
     { name: "Contact", path: "/contact" },
   ];
@@ -18,7 +19,7 @@ const Navbar = () => {
     <nav className="w-full bg-[#1F2B6C] shadow-md relative">
       
       {/* ===== DESKTOP NAV (UNCHANGED STYLE) ===== */}
-      <div className="max-w-7xl mx-auto px-6 h-[72px] flex items-center justify-center gap-96">
+      <div className="max-w-7xl mx-auto px-6 h-[72px] flex items-center justify-center gap-64">
 
         {/* Links */}
         <div className="hidden md:flex items-center gap-8">

@@ -3,18 +3,18 @@ import heartIcon from "../assets/hea.png";
 
 const Specialties = () => {
   const specialties = [
-    "Neurology",
-    "Bones",
-    "Oncology",
-    "Otorhinolaryngology",
-    "Ophthalmology",
-    "Cardiovascular",
-    "Pulmonology",
-    "Renal Medicine",
-    "Gastroenterology",
-    "Urology",
-    "Dermatology",
-    "Gynaecology",
+    "Skin Treatments",
+    "Laser Procedures",
+    "Acne & Scar Care",
+    "Pigmentation Therapy",
+    "Hair Restoration (PRP)",
+    "Anti-Aging (Botox)",
+    "Thread Lift",
+    "Microneedling",
+    "Mesotherapy",
+    "Skin Tightening (RF)",
+    "Mole & Wart Removal",
+    "Plastic Surgery",
   ];
 
   return (
@@ -28,7 +28,7 @@ const Specialties = () => {
         {/* Heading */}
         <div className="text-center mb-12">
           <p className="text-[#159EEC] text-xs font-semibold tracking-[4px] uppercase mb-2">
-            Always Caring
+            Skin & Aesthetic Care
           </p>
 
           <h2 className="text-[#1F2B6C] text-2xl sm:text-3xl md:text-4xl font-bold">
@@ -44,8 +44,8 @@ const Specialties = () => {
           md:grid-cols-4 
           gap-3 sm:gap-4
         ">
-          {specialties.map((item) => {
-            const isActive = item === "Bones";
+          {specialties.map((item, index) => {
+            const isActive = index === 1; // highlight ek card
 
             return (
               <div
