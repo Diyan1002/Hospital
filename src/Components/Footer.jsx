@@ -16,14 +16,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center sm:text-left">
 
           {/* Logo / About */}
-          <div>
+          <div className="flex flex-col items-center sm:items-start">
             <img
               src={logo}
               alt="Logo"
-              className="w-40 h-auto mb-5 object-contain"
+              className="w-40 h-auto mb-5 object-contain mx-auto sm:mx-0"
             />
 
-            <p className="text-[13px] leading-[22px] text-white/85 max-w-[230px] mx-auto sm:mx-0">
+            <p className="text-[13px] leading-[22px] text-white/85 max-w-[230px]">
               Leading the Way in Medical Excellence, Trusted Care.
             </p>
           </div>
