@@ -72,7 +72,6 @@ const Footer = () => {
             <div className="space-y-[8px] text-[13px] text-white/85">
               <p>Call: +923259133336</p>
               <p>Email: tcsbyasim21@gmail.com</p>
-              <p>Address: 0123 Some place</p>
               <p>
   Address: {" "}
   <a
