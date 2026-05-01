@@ -62,7 +62,7 @@ const machines = [
 
   // ⭐ NEW DERMOSCOPE
   {
-    title: "Dermoscope",
+    title: "Dermatoscope",
     desc: "Advanced skin examination and diagnostic tool.",
     img: machineImage8,
     details:
