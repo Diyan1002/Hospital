@@ -1,5 +1,5 @@
 import React from "react";
-import doctorsImage from "../assets/docy.png";
+import doctorsImage from "../assets/docy1.jpg";
 import aboutBg from "../assets/aba.png";
 import Testimonial from "../Components/Testimonial";
 import Doctors from "../Components/Doctors";
@@ -50,7 +50,7 @@ const AboutSection = () => {
 
             {/* Experience Badge */}
             <div className="absolute bottom-4 left-4 bg-white shadow-md px-4 py-2 rounded-xl">
-              <h3 className="text-lg font-bold text-[#1f2d6b]">10+</h3>
+              <h3 className="text-lg font-bold text-[#1f2d6b]">17+</h3>
               <p className="text-xs text-gray-500">Years Experience</p>
             </div>
           </div>

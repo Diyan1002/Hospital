@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 
 import doctor1 from "../assets/doctor1.jpeg";
 import doctor2 from "../assets/doctor2.jpeg";
-import doctor3 from "../assets/doctor3.jpg";
-import doctor4 from "../assets/doctor4.jpg";
-import doctor5 from "../assets/doctor5.jpg";
+import doctor3 from "../assets/doctor3.png";
+import doctor4 from "../assets/doctor3.png";
+import doctor5 from "../assets/doctor3.png";
 
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 

@@ -1,7 +1,17 @@
 import React from "react";
 import aboutBg from "../assets/sett.png";
 import firstServiceImage from "../assets/ser1.jpg";
-import secondserviceImage from "../assets/ser2.jpg";
+import secondserviceImage from "../assets/ser2.jpeg";
+import thirdserviceImage from "../assets/ser3.jpeg";
+import fourthserviceImage from "../assets/ser4.jpg";
+import fifthserviceImage from "../assets/ser5.jpg";
+import sixthserviceImage from "../assets/ser6.jpg";
+import seventhserviceImage from "../assets/ser7.jpg";
+import eighthserviceImage from "../assets/ser8.jpg";
+import ninthserviceImage from "../assets/ser9.jpg";
+import tenthserviceImage from "../assets/ser10.jpg";
+import eleventhserviceImage from "../assets/ser111.jpeg";
+import twelfthserviceImage from "../assets/ser12.jpeg";
 import serviceImage from "../assets/mes.png";
 import Contact from "../Components/Contact";
 
@@ -24,69 +34,69 @@ const services = [
     description:
       "Safe and effective laser treatment for unwanted hair removal.",
     tag: "Popular",
-    image: serviceImage,
+    image: thirdserviceImage,
   },
   {
     title: "Pigmentation & Melasma",
     description: "Laser treatments for pigmentation and melasma issues.",
     tag: "Skin Care",
-    image: serviceImage,
+    image: fourthserviceImage,
   },
   {
     title: "Acne & Scar Treatment",
     description:
       "Laser solutions for acne scars and facial rejuvenation including Hydrafacial.",
     tag: "Rejuvenation",
-    image: serviceImage,
+    image: fifthserviceImage,
   },
   {
     title: "PRP, PRF & Bio-filler",
     description:
       "Advanced skin and hair therapies using PRP and bio-fillers.",
     tag: "Advanced",
-    image: serviceImage,
+    image: sixthserviceImage,
   },
   {
     title: "Botox & Thread Lift",
     description:
       "Non-surgical anti-aging treatments for youthful appearance.",
     tag: "Anti-Aging",
-    image: serviceImage,
+    image: seventhserviceImage,
   },
   {
     title: "Micro RF Therapy",
     description:
       "Treatment for scars, stretch marks and skin tightening.",
     tag: "Skin Repair",
-    image: serviceImage,
+    image: eighthserviceImage,
   },
   {
     title: "Fat Grafting & Biopsy",
     description:
       "Fat grafting, mole removal and skin biopsy services.",
     tag: "Surgical",
-    image: serviceImage,
+    image: ninthserviceImage,
   },
   {
     title: "Electrocautery & Plasma Pen",
     description:
       "Modern techniques for skin lesion removal and tightening.",
     tag: "Advanced Tech",
-    image: serviceImage,
+    image: tenthserviceImage,
   },
   {
     title: "Mesotherapy & Microneedling",
     description:
       "Skin rejuvenation using derma pen and mesotherapy.",
     tag: "Glow",
-    image: serviceImage,
+    image: eleventhserviceImage,
   },
   {
     title: "Plastic Surgery",
     description:
       "Plastic and reconstructive surgical procedures.",
     tag: "Surgery",
-    image: serviceImage,
+    image: twelfthserviceImage,
   },
 ];
 
