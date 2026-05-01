@@ -1,5 +1,5 @@
 import React from "react";
-import doctorImage from "../assets/here.jpeg";
+import doctorImage from "../assets/herr.png";
 import calendarIcon from "../assets/Calendar.png";
 import personIcon from "../assets/Team.png";
 import cardIcon from "../assets/Cash.png";
@@ -26,23 +26,32 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-[#1f2b6c]/70 to-transparent"></div>
 
         {/* CONTENT */}
-        <div className="max-w-7xl mx-auto px-5 md:px-6 h-full flex items-center relative z-10">
-          <div className="max-w-xl text-white">
+       <div className="max-w-7xl mx-auto px-5 md:px-6 h-full flex items-center relative z-10">
+  <div className="max-w-xl text-white">
 
-            <p className="uppercase tracking-[4px] text-[#BFD2F8] text-xs md:text-sm font-semibold mb-3 md:mb-4">
-              Caring for Life
-            </p>
+    <p className="uppercase tracking-[3px] text-[#BFD2F8] text-[10px] md:text-xs font-semibold mb-3 md:mb-4">
+      Skin • Hair • Aesthetic Care
+    </p>
 
-            <h1 className="text-2xl md:text-6xl font-bold leading-tight">
-              Leading the Way <br /> in Medical Excellence
-            </h1>
+    <h1 className="text-xl md:text-5xl font-bold leading-snug md:leading-tight">
+      Glow With Confidence <br />
+      Through Expert Skin Care
+    </h1>
 
-            <button className="mt-5 md:mt-8 bg-[#BFD2F8] text-[#1F2B6C] font-semibold px-5 md:px-8 py-3 md:py-4 rounded-full hover:bg-white transition">
-              Our Services
-            </button>
+    <div className="mt-4 md:mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
 
-          </div>
-        </div>
+      <p className="text-xs md:text-sm text-white/80 max-w-md leading-relaxed flex-1">
+        Advanced dermatology and aesthetic treatments designed to enhance your natural beauty with safe, modern medical care.
+      </p>
+
+      <button className="bg-[#BFD2F8] text-[#1F2B6C] font-semibold px-5 md:px-7 py-2.5 md:py-3 rounded-full hover:bg-white transition whitespace-nowrap self-start sm:self-auto text-sm md:text-base">
+        Our Services
+      </button>
+
+    </div>
+
+  </div>
+</div>
       </div>
 
       {/* CARDS */}

@@ -17,6 +17,7 @@ import Contact from "./Components/Contact";
 // Pages
 import About from "./Pages/About";
 import Services from "./Pages/Services";
+import Gallery from "./Pages/Gallery";
 import Doctor from "./Pages/Doctor";
 import Staffs  from "./Pages/Staffs";
 import Contacts from "./Pages/Contacts";
@@ -48,13 +49,12 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/doctors" element={<Doctor />} />
           <Route path="/staffs" element={<Staffs />} />
           <Route path="/contact" element={<Contacts />} />
           <Route path="/machines" element={<Machines />} />
 
-
-          {/* ✅ APPOINTMENT ROUTE */}
           <Route path="/appointment" element={<Appointment />} />
         </Routes>
       </main>
