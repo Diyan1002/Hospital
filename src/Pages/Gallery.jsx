@@ -22,6 +22,7 @@ import image16 from "../assets/7777.jpeg";
 import image17 from "../assets/8888.jpeg";
 import image18 from "../assets/9999.jpeg";
 import image19 from "../assets/99999.jpeg";
+import image20 from "../assets/925.jpeg";
 
 const AboutSection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -41,6 +42,7 @@ const AboutSection = () => {
     image17,
     image18,
     image19,
+    image20,
   ];
 
   const ImageCard = ({ img, height }) => (

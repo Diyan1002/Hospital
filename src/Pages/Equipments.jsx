@@ -6,7 +6,8 @@ import machineImage3 from "../assets/13.jpeg";
 import machineImage4 from "../assets/14.jpeg";
 import machineImage5 from "../assets/15.jpeg";
 import machineImage6 from "../assets/16.jpeg";
-import machineImage7 from "../assets/17.jpeg"; // ⭐ NEW IMAGE
+import machineImage7 from "../assets/17.jpeg";
+import machineImage8 from "../assets/der.jpeg"; // ⭐ NEW Dermoscope
 
 const machines = [
   {
@@ -51,14 +52,21 @@ const machines = [
     details:
       "Separates platelet-rich plasma for healing and hair growth.",
   },
-
-  // ⭐ NEW ADDED MACHINE
   {
     title: "Plexage Plasma Pen",
     desc: "Non-surgical skin tightening and lifting device.",
     img: machineImage7,
     details:
-      "Plexage Plasma Pen uses plasma energy to stimulate skin regeneration, reduce wrinkles, tighten loose skin, and improve skin texture without surgery or downtime. Commonly used for eyelid lifting, fine lines, and acne scars.",
+      "Uses plasma energy to stimulate skin regeneration, reduce wrinkles, tighten loose skin, and improve skin texture without surgery or downtime. Commonly used for eyelid lifting, fine lines, and acne scars.",
+  },
+
+  // ⭐ NEW DERMOSCOPE
+  {
+    title: "Dermoscope",
+    desc: "Advanced skin examination and diagnostic tool.",
+    img: machineImage8,
+    details:
+      "Dermoscope is a non-invasive diagnostic device used to examine skin lesions, pigmentation, and early signs of skin diseases. It provides magnified and illuminated views of the skin for accurate diagnosis of conditions like melanoma, acne, and other dermatological issues.",
   },
 ];
 
