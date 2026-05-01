@@ -73,7 +73,17 @@ const Footer = () => {
               <p>Call: +923259133336</p>
               <p>Email: tcsbyasim21@gmail.com</p>
               <p>Address: 0123 Some place</p>
-              <p>Some country</p>
+              <p>
+  Address: {" "}
+  <a
+    href="https://share.google/7nxXQ27iVh4yy9pp6"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:underline ml-2"
+  >
+    View on map
+  </a>
+</p>
             </div>
           </div>
 
