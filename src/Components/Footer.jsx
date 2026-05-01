@@ -117,16 +117,30 @@ const Footer = () => {
           </p>
 
           <div className="flex items-center gap-4">
-            <a href="#">
-              <img src={linkedinIcon} className="w-[18px] h-[18px]" />
-            </a>
-            <a href="#">
-              <img src={facebookIcon} className="w-[18px] h-[18px]" />
-            </a>
-            <a href="#">
-              <img src={instagramIcon} className="w-[18px] h-[18px]" />
-            </a>
-          </div>
+  <a
+    href="https://www.linkedin.com/company/your-company"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={linkedinIcon} alt="LinkedIn" className="w-[18px] h-[18px]" />
+  </a>
+
+  <a
+    href="https://tr.ee/13ya7RXV4n"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={facebookIcon} alt="Facebook" className="w-[18px] h-[18px]" />
+  </a>
+
+  <a
+    href="https://tr.ee/gcSqGi_eIF"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={instagramIcon} alt="Instagram" className="w-[18px] h-[18px]" />
+  </a>
+</div>
 
         </div>
 
