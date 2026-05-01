@@ -94,9 +94,9 @@ const AppointmentPage = () => {
               ["Tuesday", "09:00 - 07:00"],
               ["Wednesday", "09:00 - 07:00"],
               ["Thursday", "09:00 - 07:00"],
-              ["Friday", "09:00 - 07:00"],
-              ["Saturday", "09:00 - 07:00"],
-              ["Sunday", "Emergency Only"],
+              ["Friday", "OFF"],
+              ["Saturday", "OFF"],
+              ["Sunday", "OFF"],
             ].map((item, i) => (
               <div
                 key={i}
@@ -110,7 +110,7 @@ const AppointmentPage = () => {
           </div>
 
           <div className="mt-6 md:mt-8 p-4 bg-[#f0f7ff] rounded-xl text-center text-[#1f2d6b] font-medium text-sm">
-            Emergency: (237) 681-812-255
+            Call Now: +923259133336
           </div>
 
         </div>

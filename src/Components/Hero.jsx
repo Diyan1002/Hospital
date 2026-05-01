@@ -17,7 +17,7 @@ const HeroSection = () => {
           mx-auto 
           bg-cover 
           bg-center md:bg-center
-          bg-[position:70%_center] md:bg-center
+          bg-[position:75%_center] md:bg-center
         "
         style={{ backgroundImage: `url(${doctorImage})` }}
       >
@@ -69,7 +69,7 @@ const HeroSection = () => {
             <img src={calendarIcon} className="w-8 md:w-10 h-8 md:h-10" />
           </div>
 
-          <div className="bg-[#BFD2F8] text-[#1F2B6C] p-5 md:p-8 flex items-center justify-between">
+          <div className="bg-[#75839c] text-[#1F2B6C] p-5 md:p-8 flex items-center justify-between">
             <div>
               <h3 className="text-base md:text-lg font-semibold">Find Doctors</h3>
               <p className="text-xs md:text-sm mt-1 opacity-70">
@@ -79,7 +79,7 @@ const HeroSection = () => {
             <img src={personIcon} className="w-8 md:w-10 h-8 md:h-10" />
           </div>
 
-          <div className="bg-[#159EEC] text-white p-5 md:p-8 flex items-center justify-between">
+          <div className="bg-[#b0b9c9] text-white p-5 md:p-8 flex items-center justify-between">
             <div>
               <h3 className="text-base md:text-lg font-semibold">Billing & Insurance</h3>
               <p className="text-xs md:text-sm text-white/80 mt-1">

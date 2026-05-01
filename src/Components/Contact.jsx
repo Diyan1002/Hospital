@@ -30,17 +30,22 @@ export default function ContactSection() {
           </Card>
 
           <Card icon={locationIcon} title="Location" highlight>
-            <p>0123 Some Place</p>
-            <p>9876 Some Country</p>
-          </Card>
+  <a
+    href="https://share.google/7nxXQ27iVh4yy9pp6"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:underline"
+  >
+    View on map
+  </a>
+</Card>
 
           <Card icon={emailIcon} title="Email">
             <p>tcsbyasim21@gmail.com</p>
           </Card>
 
           <Card icon={clockIcon} title="Working Hours">
-            <p>Mon - Sat: 09:00 - 20:00</p>
-            <p>Sunday: Emergency only</p>
+            <p>05:00 PM - 09:00 PM Mon - Thu</p>
           </Card>
 
         </div>

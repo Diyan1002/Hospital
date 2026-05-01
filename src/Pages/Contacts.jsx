@@ -84,10 +84,16 @@ export default function ContactSection() {
               <p>+923259133336</p>
             </InfoCard>
 
-            <InfoCard icon={locationIcon} title="Location" dark>
-              <p>0123 Some place</p>
-              <p>9876 Some country</p>
-            </InfoCard>
+           <InfoCard icon={locationIcon} title="Location" dark>
+  <a
+    href="https://share.google/7nxXQ27iVh4yy9pp6"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:underline"
+  >
+    View on map
+  </a>
+</InfoCard>
 
             <InfoCard icon={emailIcon} title="Email">
               <p>tcsbyasim21@gmail.com</p>

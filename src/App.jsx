@@ -18,10 +18,9 @@ import Contact from "./Components/Contact";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
 import Gallery from "./Pages/Gallery";
-import Doctor from "./Pages/Doctor";
-import Staffs  from "./Pages/Staffs";
+import OurTeams from "./Pages/OurTeams";
 import Contacts from "./Pages/Contacts";
-import Machines from "./Pages/Machines";
+import  Equipments from "./Pages/Equipments";
 import Appointment from "./Pages/Appointment"; 
 
 const Home = () => (
@@ -50,10 +49,9 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/doctors" element={<Doctor />} />
-          <Route path="/staffs" element={<Staffs />} />
+          <Route path="/ourteams" element={<OurTeams />} />
           <Route path="/contact" element={<Contacts />} />
-          <Route path="/machines" element={<Machines />} />
+          <Route path="/equipments" element={<Equipments />} />
 
           <Route path="/appointment" element={<Appointment />} />
         </Routes>

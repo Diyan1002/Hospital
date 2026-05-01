@@ -1,7 +1,7 @@
 import React from "react";
 import aboutBg from "../assets/aba.png";
 import staff1 from "../assets/staff1.jpeg";
-import staff2 from "../assets/staff1.jpeg";
+import staff2 from "../assets/staff2.jpeg";
 import Testimonial from "../Components/Testimonial";
 import Contact from "../Components/Contact";
 
