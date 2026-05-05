@@ -32,11 +32,11 @@ const DoctorsPage = () => {
 
         <div className="relative z-10 max-w-6xl mx-auto h-full px-6 flex flex-col justify-center text-left md:text-left">
           <p className="text-[#1f2d6b] text-xs sm:text-sm font-medium">
-            Home / Teams
+            Home / Team
           </p>
 
           <h1 className="mt-1 text-2xl sm:text-3xl md:text-4xl font-bold text-[#1f2d6b] font-serif">
-            Our Teams
+            Our Team
           </h1>
         </div>
 

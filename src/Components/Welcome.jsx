@@ -14,7 +14,7 @@ const WelcomeSection = () => {
 
         {/* Heading */}
         <h2 className="text-2xl md:text-4xl font-bold text-[#1F2B6C] leading-snug">
-          Your Trusted Skin & Care Clinic for Healthy, Glowing Skin
+          Your Trusted Skin Care Clinic for Healthy & Glowing Skin
         </h2>
 
         {/* Description */}

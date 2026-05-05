@@ -6,19 +6,11 @@ import cardIcon from "../assets/Cash.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative">
+    <section className="relative w-full overflow-hidden">
 
-      {/* HERO IMAGE */}
+      {/* HERO IMAGE FULL WIDTH */}
       <div
-        className="
-          relative 
-          h-[420px] md:h-[550px] 
-          w-full md:w-[1350px] 
-          mx-auto 
-          bg-cover 
-          bg-center md:bg-center
-          bg-[position:90%_center] md:bg-center
-        "
+        className="relative h-[420px] md:h-[550px] w-full bg-cover bg-center"
         style={{ backgroundImage: `url(${doctorImage})` }}
       >
 
@@ -26,36 +18,36 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-[#1f2b6c]/70 to-transparent"></div>
 
         {/* CONTENT */}
-       <div className="max-w-7xl mx-auto px-5 md:px-6 h-full flex items-center relative z-10">
-  <div className="max-w-xl text-white">
+        <div className="max-w-7xl mx-auto px-5 md:px-6 h-full flex items-center relative z-10">
+          <div className="max-w-xl text-white">
 
-    <p className="uppercase tracking-[3px] text-[#BFD2F8] text-[10px] md:text-xs font-semibold mb-3 md:mb-4">
-      Skin • Hair • Aesthetic Care
-    </p>
+            <p className="uppercase tracking-[3px] text-[#BFD2F8] text-[10px] md:text-xs font-semibold mb-3 md:mb-4">
+              Skin • Hair • Aesthetic Care
+            </p>
 
-    <h1 className="text-xl md:text-5xl font-bold leading-snug md:leading-tight">
-      Glow With Confidence <br />
-      Through Expert Skin Care
-    </h1>
+            <h1 className="text-xl md:text-5xl font-bold leading-snug md:leading-tight">
+              Glow With Confidence <br />
+              Through Expert Skin Care
+            </h1>
 
-    <div className="mt-4 md:mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div className="mt-4 md:mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
 
-      <p className="text-xs md:text-sm text-white/80 max-w-md leading-relaxed flex-1">
-        Advanced dermatology and aesthetic treatments designed to enhance your natural beauty with safe, modern medical care.
-      </p>
+              <p className="text-xs md:text-sm text-white/80 max-w-md leading-relaxed flex-1">
+                Advanced dermatology and aesthetic treatments designed to enhance your natural beauty with safe, modern medical care.
+              </p>
 
-      <button className="bg-[#BFD2F8] text-[#1F2B6C] font-semibold px-5 md:px-7 py-2.5 md:py-3 rounded-full hover:bg-white transition whitespace-nowrap self-start sm:self-auto text-sm md:text-base">
-        Our Services
-      </button>
+              <button className="bg-[#BFD2F8] text-[#1F2B6C] font-semibold px-5 md:px-7 py-2.5 md:py-3 rounded-full hover:bg-white transition whitespace-nowrap self-start sm:self-auto text-sm md:text-base">
+                Our Services
+              </button>
 
-    </div>
+            </div>
 
-  </div>
-</div>
+          </div>
+        </div>
       </div>
 
       {/* CARDS */}
-      <div className="max-w-7xl mx-auto px-4 md:px-6 relative z-20 -mt-8 md:-mt-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 relative z-20 -mt-10 md:-mt-16">
 
         <div className="grid grid-cols-1 md:grid-cols-3 shadow-2xl rounded-2xl overflow-hidden">
 
@@ -69,7 +61,7 @@ const HeroSection = () => {
             <img src={calendarIcon} className="w-8 md:w-10 h-8 md:h-10" />
           </div>
 
-          <div className="bg-[#75839c] text-[#1F2B6C] p-5 md:p-8 flex items-center justify-between">
+          <div className="bg-[#75839c] text-white p-5 md:p-8 flex items-center justify-between">
             <div>
               <h3 className="text-base md:text-lg font-semibold">Find Doctors</h3>
               <p className="text-xs md:text-sm mt-1 opacity-70">
@@ -79,10 +71,10 @@ const HeroSection = () => {
             <img src={personIcon} className="w-8 md:w-10 h-8 md:h-10" />
           </div>
 
-          <div className="bg-[#b0b9c9] text-white p-5 md:p-8 flex items-center justify-between">
+          <div className="bg-[#b0b9c9] text-[#1F2B6C] p-5 md:p-8 flex items-center justify-between">
             <div>
               <h3 className="text-base md:text-lg font-semibold">Billing & Insurance</h3>
-              <p className="text-xs md:text-sm text-white/80 mt-1">
+              <p className="text-xs md:text-sm mt-1 text-[#1F2B6C]/70">
                 Easy payment process
               </p>
             </div>

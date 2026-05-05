@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import doctor1 from "../assets/doctor1.jpeg";
 import doctor2 from "../assets/doctor2.jpeg";
-import doctor3 from "../assets/doctor3.png";
+import doctor3 from "../assets/dr.jpeg";
 import doctor4 from "../assets/doctor3.png";
 import doctor5 from "../assets/doctor3.png";
 
@@ -27,7 +27,7 @@ const doctors = [
     image: doctor2,
   },
   {
-    name: "Dr Anas Sajjad",
+    name: "Dr Hafiza Anas Zahra",
     specialty: "Dermatologist & Aesthetic Physician",
     qualifications: ["MBBS (UHS)", "FCPS Part-II (Dermatology)"],
     image: doctor3,

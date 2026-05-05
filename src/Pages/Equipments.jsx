@@ -32,7 +32,7 @@ const machines = [
       "Boosts collagen, reduces wrinkles and improves skin texture.",
   },
   {
-    title: "Hydra Facial Machine",
+    title: "Hydra Facial",
     desc: "Deep cleansing and hydration facial system.",
     img: machineImage4,
     details:
@@ -63,7 +63,7 @@ const machines = [
   // ⭐ NEW DERMOSCOPE
   {
     title: "Dermatoscope",
-    desc: "Advanced skin examination and diagnostic tool.",
+    desc: "Advanced skin examination and diagnostic tool for detection of skin cancer.",
     img: machineImage8,
     details:
       "Dermoscope is a non-invasive diagnostic device used to examine skin lesions, pigmentation, and early signs of skin diseases. It provides magnified and illuminated views of the skin for accurate diagnosis of conditions like melanoma, acne, and other dermatological issues.",

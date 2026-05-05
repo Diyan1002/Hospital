@@ -122,7 +122,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-5 text-center sm:text-left">
 
           <p className="text-[12px] text-white/85">
-            © 2026 Hospital’s name All Rights Reserved by PNTEC-LTD
+            © 2026 The Clear Skin All Rights Reserved by L&SC
           </p>
 
           <div className="flex items-center gap-4">

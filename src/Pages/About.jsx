@@ -1,5 +1,5 @@
 import React from "react";
-import doctorsImage from "../assets/docy1.jpg";
+import doctorsImage from "../assets/doc1.jpeg";
 import aboutBg from "../assets/aba.png";
 import Testimonial from "../Components/Testimonial";
 import Doctors from "../Components/Doctors";
